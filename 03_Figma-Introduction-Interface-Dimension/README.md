@@ -5,14 +5,15 @@
 2. Pada materi yang diberikan, kita diajarkan untuk melakukan konfigurasi pada figma seperti membuat frame, membuat shape, membuat text, dan lain-lain.
 
 3. Figma memiliki beberapa kelebihan dan kekurangan, di antaranya adalah:
-    -Kelebihan
-    1. Figma dapat diakses langsung melalui web, sehingga kompatibel untuk banyak perangkat.
-    2. Figma dapat digunakan untuk kolaborasi secara online.
-    3. Figma bersifat open source, sehingga banyak plugins yang dibuat oleh banyak orang yang dapat digunakan secara gratis.
 
-    -Kekurangan
-    1. Figma tidak dapat digunakan secara offline.
-    2. Figma memiliki fitur yang terbatas jika dibandingkan dengan software desain lainnya seperti Adobe XD.
+    - Kelebihan
+    a. Figma dapat diakses langsung melalui web, sehingga kompatibel untuk banyak perangkat.
+    b. Figma dapat digunakan untuk kolaborasi secara online.
+    c. Figma bersifat open source, sehingga banyak plugins yang dibuat oleh banyak orang yang dapat digunakan secara gratis.
+
+    - Kekurangan
+    a. Figma tidak dapat digunakan secara offline.
+    b. Figma memiliki fitur yang terbatas jika dibandingkan dengan software desain lainnya seperti Adobe XD.
 
 Berikut link untuk melihat hasil dari latihan yang diberikan:
 
