@@ -1,0 +1,7 @@
+# React Fundamental
+
+1. JSX atau JavaScript XML adalah ekstensi javascript yang memungkinkan kita menulis kode seperti HTML. JSX memungkinkan kita untuk menulis kode HTML yang akan di compile menjadi javascript biasa. JSX memudahkan kita untuk membuat kode yang lebih bersih dan lebih mudah dibaca. JSX dibentuk dengan alasan bahwa logika dari rendering UI seharusnya terkait dengan logika dari UI itu sendiri.
+
+2. Terdapat beberapa istilah pada React, seperti props drilling dan state lifting. Props drilling adalah proses mengirimkan props dari component ke component lainnya. State lifting adalah proses mengirimkan state dari component ke component lainnya. Props drilling sebaiknya dihindari karena akan menyulitkan kita dalam mengirimkan props ke component yang berada di dalam component yang lebih dalam. State lifting juga sebaiknya dihindari karena akan menyulitkan kita dalam mengirimkan state ke component yang berada di dalam component yang lebih dalam. Untuk menghindari props drilling dan state lifting, kita dapat menggunakan context.
+
+3. React Lifecycle terdiri dari beberapa method yang akan dipanggil pada saat component sedang berada pada state tertentu. React Lifecycle terdiri dari beberapa fase, yaitu mounting, updating, dan unmounting. Mounting adalah fase dimana component baru dibuat dan ditambahkan ke dalam DOM. Updating adalah fase dimana component sedang melakukan update. Unmounting adalah fase dimana component dihapus dari DOM.
