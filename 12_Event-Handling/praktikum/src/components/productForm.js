@@ -12,7 +12,7 @@ function ProductForm() {
     price: "",
   };
   const format = /[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
-  
+
   // for form data
   const [formData, setFormData] = useState(initialFormData);
 
@@ -73,12 +73,15 @@ function ProductForm() {
 
     for (let key in formData) {
       if (formData[key] === "") {
+        document.getElementById(key).style.border = "1px solid red";
         newErrors[key] = `Product ${key} must be filled.`;
       } else {
         if (key === "name") {
           if (formData.name.length > 25) {
+            document.getElementById(key).style.border = "1px solid red";
             newErrors.name = "Last name must be less than 25 characters.";
           } else if (format.test(formData.name)) {
+            document.getElementById(key).style.border = "1px solid red";
             newErrors.name = "Name must not contain special characters.";
           } else {
             newErrors.name = "";
