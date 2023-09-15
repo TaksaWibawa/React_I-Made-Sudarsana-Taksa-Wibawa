@@ -87,6 +87,7 @@ function ProductForm() {
             newErrors.name = "";
           }
         } else {
+          document.getElementById(key).style.border = "1px solid green";
           newErrors[key] = "";
         }
       }
