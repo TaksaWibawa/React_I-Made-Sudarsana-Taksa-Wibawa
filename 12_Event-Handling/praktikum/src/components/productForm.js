@@ -12,6 +12,7 @@ function ProductForm() {
     price: "",
   };
   const format = /[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+  
   // for form data
   const [formData, setFormData] = useState(initialFormData);
 
