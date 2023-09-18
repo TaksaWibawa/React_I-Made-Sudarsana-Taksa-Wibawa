@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+      }
+
+      .container-wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      .content {
+        flex: 1;
+      }
+
+      .contact-us {
+        background-color: #f8f9fa;
+        padding: 80px 0;
+      }
+
+      .contact-form {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      footer {
+        background-color: #495375;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+    </style>
+    <title>Code Competence</title>
+  </head>
+  <body>
+    <div class="container-wrapper">
+      <!-- navbar -->
+      <nav
+        class="navbar navbar-expand-md navbar-fixed-top p-0 bg-white border-bottom"
+      >
+        <div class="container">
+          <a class="navbar-brand p-0 my-auto" href="#">
+            <img
+              src="./assets/sic-logo.svg"
+              width="100"
+              height="70"
+              alt="logo sic unud"
+              class="p-0"
+            />
+          </a>
+
+          <div class="nav justify-content-end flex-grow-1 pe-3">
+            <div class="nav-item">
+              <a
+                href="#"
+                class="nav-link pe-4 ps-3"
+                style="color: #718096; font-weight: 600"
+              >
+                Home
+              </a>
+            </div>
+
+            <div class="nav-item">
+              <a
+                href="#"
+                class="nav-link pe-4 ps-3"
+                style="color: #718096; font-weight: 600"
+              >
+                Divisions
+              </a>
+            </div>
+
+            <div class="nav-item">
+              <a
+                href="#"
+                class="nav-link pe-4 ps-3"
+                style="color: #718096; font-weight: 600"
+              >
+                Clubs
+              </a>
+            </div>
+
+            <div class="nav-item">
+              <a
+                href="#"
+                class="nav-link pe-4 ps-3"
+                style="color: #718096; font-weight: 600"
+              >
+                FAQ
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <div
+        class="container-fluid d-flex justify-content-center align-items-center py-5 content"
+      >
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-8">
+              <div class="col-lg-8 d-flex flex-column gap-2">
+                <h1 style="font-weight: 800">
+                  Achieve Success Through Development of Intellectual Insight
+                  and Self-Capability
+                </h1>
+                <p class="w-75">
+                  Innovating a connected future through developer studies.
+                  Empowering society through self-ability. We are here to apply
+                  our capabilities in the field of information and communication
+                  technology to create professionalism and integrity to present
+                  a future that is rich of knowledge.
+                </p>
+                <a href="#">
+                  <button
+                    style="border-radius: 8px; padding: 10px 40px"
+                    class="btn btn-outline-primary"
+                  >
+                    Explore
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-lg-block">
+              <img
+                src="./assets/SIC Rounded Logo.png"
+                alt="SIC LOGO HERO"
+                class="w-75"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Us Section -->
+    <div class="contact-us">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="contact-title">
+              <h1 class="pb-3 fw-bolder">Contact Us</h1>
+              <p class="w-75">
+                If you have any questions or inquiries, feel free to reach out
+                to us using the form below. We'll get back to you as soon as
+                possible.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="contact-form">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter your email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    placeholder="Enter the subject"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    placeholder="Enter your message"
+                  ></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="container-fluid py-5">
+      <div class="container">
+        <div class="row border-bottom pb-5 align-items-end">
+          <div class="col-lg-5 pb-5 pb-lg-0">
+            <div class="col-lg-8 text-start">
+              <img
+                src="./assets/sic-logo-white.svg"
+                alt="Logo Sic Footer"
+                class="pb-4"
+              />
+              <p class="text-white">
+                A non-profit organization committed to finding the best way to
+                share knowledge about technology.
+              </p>
+              <div
+                class="d-flex justify-content-start align-items-center gap-3"
+              >
+                <a
+                  href="https://www.instagram.com/sic.unud/"
+                  target="_blank"
+                  class="text-white fs-4"
+                >
+                  <img src="./assets/instagram.png" alt="Instagram Sic" />
+                </a>
+                <a
+                  href="https://github.com/sic-unud"
+                  target="_blank"
+                  class="text-white fs-4"
+                >
+                  <img src="./assets/github.png" alt="Github Sic" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/student-innovation-centre/"
+                  target="_blank"
+                  class="text-white fs-4"
+                >
+                  <img src="./assets/linkedin.png" alt="Linkedin Sic" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-lg-5 col-md-6 pb-5 pb-lg-0 text-start">
+                <h4 class="fw-bold text-white pb-2">Contact Us</h4>
+                <div
+                  class="col-lg-10 d-flex align-items-center gap-2 text-white pb-2"
+                >
+                  +62 123-456-789 (Taksa)
+                </div>
+                <div
+                  class="col-lg-10 d-flex align-items-center gap-2 text-white pb-2"
+                >
+                  sic.udayana@gmail.com
+                </div>
+                <div
+                  class="col-lg-10 d-flex align-items-start gap-2 text-white pb-2"
+                >
+                  Sekretariat SIC. Gedung BD Lt. 2, Informatika FMIPA Udayana
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-6 pb-5 pb-lg-0 text-start">
+                <div class="col-lg-10">
+                  <h4 class="fw-bold text-white pb-2">Random Quote</h4>
+                  <i
+                    ><q class="text-white"
+                      >The technology of today is the result of the imagination
+                      of yesterday.</q
+                    ></i
+                  >
+                  <p class="pt-4 text-white">- Carl Saganv</p>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 pb-5 pb-lg-0 text-start">
+                <h4 class="fw-bold text-white pb-2">Join Us</h4>
+                <div class="col-lg-12 col-md-5 col-5 m-lg-auto m-0">
+                  <img
+                    src="./assets/qr-code.svg"
+                    alt="QR CODE DISCORD"
+                    class="w-100"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-center text-white mt-4">
+          © Student Innovation Centre All Rights Reserved. Website by SIC 2023.
+        </p>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    form = document.querySelector("form");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      if (
+        form.name.value == "" ||
+        form.email.value == "" ||
+        form.subject.value == "" ||
+        form.message.value == ""
+      ) {
+        alert("Please fill all the form!");
+      } else {
+        alert("Thank you for your message");
+      }
+    });
+  </script>
+</html>
