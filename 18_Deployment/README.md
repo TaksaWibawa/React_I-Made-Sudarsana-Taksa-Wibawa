@@ -10,6 +10,10 @@ Link Deployment:
 
 [https://taksa-deployment-task.vercel.app/](https://taksa-deployment-task.vercel.app/)
 
+credential:
+username : admin
+password : admin123
+
 Link Repository:
 
 [https://github.com/TaksaWibawa/18_Deployment](https://github.com/TaksaWibawa/18_Deployment)
