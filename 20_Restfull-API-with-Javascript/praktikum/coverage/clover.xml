@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1696009541804" clover="3.2.0">
+  <project timestamp="1696009541805" name="All files">
+    <metrics statements="104" coveredstatements="45" conditionals="66" coveredconditionals="28" methods="50" coveredmethods="18" elements="220" coveredelements="91" complexity="0" loc="104" ncloc="104" packages="5" files="7" classes="7"/>
+    <package name="components">
+      <metrics statements="56" coveredstatements="14" conditionals="36" coveredconditionals="3" methods="27" coveredmethods="4"/>
+      <file name="product-edit-modal.jsx" path="D:\Kuliah\MBKM\Sem5-Alterra\Code\17_React-Testing\praktikum\src\components\product-edit-modal.jsx">
+        <metrics statements="30" coveredstatements="0" conditionals="28" coveredconditionals="0" methods="16" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="152" count="0" type="stmt"/>
+        <line num="180" count="0" type="stmt"/>
+        <line num="192" count="0" type="stmt"/>
+        <line num="193" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="194" count="0" type="stmt"/>
+        <line num="195" count="0" type="stmt"/>
+        <line num="196" count="0" type="stmt"/>
+        <line num="198" count="0" type="stmt"/>
+        <line num="229" count="0" type="stmt"/>
+        <line num="264" count="0" type="stmt"/>
+        <line num="271" count="0" type="stmt"/>
+        <line num="287" count="0" type="stmt"/>
+        <line num="303" count="0" type="stmt"/>
+        <line num="341" count="0" type="stmt"/>
+      </file>
+      <file name="product-list.jsx" path="D:\Kuliah\MBKM\Sem5-Alterra\Code\17_React-Testing\praktikum\src\components\product-list.jsx">
+        <metrics statements="26" coveredstatements="14" conditionals="8" coveredconditionals="3" methods="11" coveredmethods="4"/>
+        <line num="8" count="12" type="stmt"/>
+        <line num="9" count="20" type="stmt"/>
+        <line num="10" count="12" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="13" count="12" type="stmt"/>
+        <line num="14" count="12" type="stmt"/>
+        <line num="16" count="12" type="stmt"/>
+        <line num="17" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="24" count="12" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="35" count="12" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="12" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="12" type="stmt"/>
+        <line num="93" count="15" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+        <line num="138" count="0" type="stmt"/>
+        <line num="144" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages">
+      <metrics statements="23" coveredstatements="21" conditionals="26" coveredconditionals="25" methods="14" coveredmethods="13"/>
+      <file name="product-page.jsx" path="D:\Kuliah\MBKM\Sem5-Alterra\Code\17_React-Testing\praktikum\src\pages\product-page.jsx">
+        <metrics statements="23" coveredstatements="21" conditionals="26" coveredconditionals="25" methods="14" coveredmethods="13"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="16" count="10" type="stmt"/>
+        <line num="29" count="10" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="10" type="stmt"/>
+        <line num="35" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="10" type="stmt"/>
+        <line num="68" count="13" type="stmt"/>
+        <line num="96" count="11" type="stmt"/>
+        <line num="135" count="10" type="stmt"/>
+        <line num="144" count="2" type="stmt"/>
+        <line num="145" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="146" count="2" type="stmt"/>
+        <line num="147" count="2" type="stmt"/>
+        <line num="148" count="1" type="stmt"/>
+        <line num="150" count="2" type="stmt"/>
+        <line num="174" count="14" type="stmt"/>
+        <line num="183" count="2" type="stmt"/>
+        <line num="201" count="1" type="stmt"/>
+        <line num="219" count="1" type="stmt"/>
+        <line num="252" count="11" type="stmt"/>
+        <line num="291" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="store">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="D:\Kuliah\MBKM\Sem5-Alterra\Code\17_React-Testing\praktikum\src\store\index.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="store.account">
+      <metrics statements="14" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="account-list.js" path="D:\Kuliah\MBKM\Sem5-Alterra\Code\17_React-Testing\praktikum\src\store\account\account-list.js">
+        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="current-account.js" path="D:\Kuliah\MBKM\Sem5-Alterra\Code\17_React-Testing\praktikum\src\store\account\current-account.js">
+        <metrics statements="10" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="store.product">
+      <metrics statements="10" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="1"/>
+      <file name="payload.js" path="D:\Kuliah\MBKM\Sem5-Alterra\Code\17_React-Testing\praktikum\src\store\product\payload.js">
+        <metrics statements="10" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
